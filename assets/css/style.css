@@ -1,0 +1,186 @@
+/* ===========================
+   Employee Management System
+   Professional UI
+=========================== */
+
+body{
+    background:#f4f7fc;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Header */
+.card{
+    border:none;
+    border-radius:15px;
+    overflow:hidden;
+}
+
+.card-header{
+    font-size:18px;
+    font-weight:600;
+    letter-spacing:.5px;
+}
+
+.card-header.bg-primary{
+    background:linear-gradient(90deg,#0d6efd,#0b5ed7)!important;
+}
+
+.card-header.bg-success{
+    background:linear-gradient(90deg,#198754,#157347)!important;
+}
+
+/* Logo */
+img{
+    max-height:80px;
+}
+
+/* Inputs */
+.form-control,
+.form-select{
+
+    height:48px;
+
+    border-radius:10px;
+
+    border:1px solid #ced4da;
+
+    transition:.3s;
+
+}
+
+textarea.form-control{
+
+    height:auto;
+
+    resize:none;
+
+}
+
+.form-control:focus,
+.form-select:focus{
+
+    box-shadow:0 0 10px rgba(13,110,253,.25);
+
+    border-color:#0d6efd;
+
+}
+
+/* Labels */
+
+label{
+
+    font-weight:600;
+
+    margin-bottom:6px;
+
+    color:#444;
+
+}
+
+/* Buttons */
+
+.btn{
+
+    border-radius:10px;
+
+    font-weight:600;
+
+    transition:.3s;
+
+}
+
+.btn:hover{
+
+    transform:translateY(-2px);
+
+}
+
+/* Search */
+
+#searchPhone{
+
+    font-size:18px;
+
+    font-weight:500;
+
+}
+
+/* Header */
+
+h2{
+
+    font-weight:700;
+
+}
+
+/* Cards */
+
+.card{
+
+    box-shadow:0 10px 25px rgba(0,0,0,.08);
+
+}
+
+/* Form spacing */
+
+.mb-3{
+
+    margin-bottom:20px!important;
+
+}
+
+/* Table */
+
+.table{
+
+    border-radius:10px;
+
+    overflow:hidden;
+
+}
+
+.table thead{
+
+    background:#0d6efd;
+
+    color:white;
+
+}
+
+/* Badge */
+
+.badge{
+
+    font-size:13px;
+
+    padding:8px 10px;
+
+}
+
+/* Responsive */
+
+@media(max-width:768px){
+
+    h2{
+
+        font-size:24px;
+
+        text-align:center;
+
+    }
+
+    p{
+
+        text-align:center;
+
+    }
+
+    .btn{
+
+        width:100%;
+
+        margin-bottom:10px;
+
+    }
+
+}
